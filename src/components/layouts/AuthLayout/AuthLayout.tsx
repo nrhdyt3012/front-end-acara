@@ -3,8 +3,8 @@ import { ReactNode } from "react";
 
 interface PropTypes {
     
-    title?: string
-    children: ReactNode
+    title?: string;
+    children: ReactNode;
 }
 const AuthLayout = (props: PropTypes) => {
         const {title, children} = props;
