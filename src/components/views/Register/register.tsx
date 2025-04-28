@@ -29,7 +29,7 @@ const Register = () => {
                     <h2 className='text-xl font-bold text-danger'>Create Account</h2>
                     <p className='text-small mb-4'>
                         Have an account ?&nbsp;
-                    <Link href="/login" className='font-semibold text-danger-400'>
+                    <Link href="/auth/login" className='font-semibold text-danger-400'>
                     Login here
                     </Link>
                     </p>
