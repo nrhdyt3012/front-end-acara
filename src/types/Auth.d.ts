@@ -6,4 +6,7 @@ interface IRegister {
     confirmPassword: string;
 }
 
-export type { IRegister };
+interface Iactivation {
+    code:string;
+}
+export type { IRegister, Iactivation };
