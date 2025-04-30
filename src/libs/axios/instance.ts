@@ -20,7 +20,7 @@ const instance = axios.create({
   headers,
   //waktu makskimal untuk request
   // jika melebihi waktu ini maka request akan dibatalkan
-  timeout: 10000, // 10 detik
+  timeout: 20 * 1000, // 10 detik
 });
 
 //untuk mengintercept request dan response
